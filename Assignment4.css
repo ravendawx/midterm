@@ -1,0 +1,121 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-gap: 10px;
+}
+
+.grid-container>div{
+    
+    border: 1px solid saddlebrown;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: sandybrown;
+    text-align: center;
+}
+
+
+#header{
+    grid-column: 1 / span 3;
+    text-align: center;
+    
+}
+
+#menu{
+    grid-column: 1 / span 1;
+    
+    
+}
+
+#main{
+    grid-column: 2 / span 1;
+    
+    
+}
+#Cinnamon1{
+    width: 50%;
+    
+}
+#Cinnamon2{
+    width: 50%;
+    
+}
+#Cinnamon3{
+    width: 50%;
+    
+}
+#Cinnamon4{
+    width: 50%;
+    
+}
+#Cinnamon5{
+    width: 50%;
+    
+}
+#Cinnamon6{
+    width: 50%;
+    
+}
+#right{
+    grid-column: 3 / span 1;
+}
+#bakerylogo{
+    width: 50%;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+}
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #menu{
+        grid-column: 1 / span 2;
+        text-align: left;
+    }
+    
+    #menu div{
+        display: inline-block;
+    }
+
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 2 / span 1;
+    }
+    
+    #footer{
+        grid-column: 1 / span 2;
+    }
+    @media only screen and (max-width: 500px){
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 10px;
+        }
+        #header{
+            grid-column: 1 / span 1;
+        }
+        
+        #menu{
+            grid-column: 1 / span 1;
+        }
+        
+        #main{
+            grid-column: 1 / span 1;
+        }
+        #right{
+            grid-column: 1 / span 1;
+        }
+        #footer{
+            grid-column: 1 / span 1;
+        }
+    }
+}

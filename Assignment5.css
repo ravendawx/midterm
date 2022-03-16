@@ -1,0 +1,37 @@
+.header{
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;  
+  font-family: monospace;
+}
+#Blog{
+    width: 5%;
+    border: 5px;
+     
+}
+body 
+  {
+    background-color: hsl(46, 100%, 70%);
+  }
+
+#text1 
+  {
+    border: 5px solid hsl(39, 93%, 33%);
+    width: 140px;
+    height: 60px;
+  }
+
+#button 
+  {
+    background-color: rgb(248, 211, 89);
+    color: #fdcf02;
+    font-size: 16pt;
+  }
+
+#maintext 
+  {
+    border: 5px solid hsl(288, 79%, 22%);
+    background-color: hsl(273, 82%, 62%);
+    color: #f7dbf8;
+    width: fit-content;
+  }
