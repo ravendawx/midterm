@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/*nav bar*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background: crimson;
+    font-family: monospace;
+    
+}
+.navnar.sticky{
+    padding: 30px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: blanchedalmond;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: blanchedalmond;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+    
+}
+.navbar .menu li a:hover{
+    color: rgb(68, 65, 65);
+}
+
+/*home selection*/
+.home{
+    display: flex;
+    background: rgb(68, 65, 65)  no-repeat center;
+    height: auto;
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 500px;
+}
+#mypicture{
+    width: 25%;
+    border: 5px brown;
+    border-radius: 100px;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    
+    color: #FA4616  ;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    color: #16775a;
+    
+}
+.home .home-content .text-4{
+    font-size: 27px;
+}
+.home .home-content .text-5{
+    font-size: 27px;
+}
+.home .home-content .text-6{
+    font-size: 27px;
+}
+.home .home-content .text-7{
+    font-size: 27px;
+}
+.home .home-content .text-8{
+    font-size: 27px;
+    
+}
+
+@media (max-width: 991px){
+    .max-width{
+        
+        padding: 0 50px;        
+    }
+    .navbar .menu li{
+        display: inline-block;
+    }
+   
+}
